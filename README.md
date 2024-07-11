@@ -16,7 +16,9 @@
 let value = sessionStorage.getItem('telegram-mini-apps-launch-params');
 let params = new URLSearchParams(value);
 let tgWebAppData = params.get('tgWebAppData');
+```
 - Enter
+```sh
 console.log(tgWebAppData);
 ```
 ![image](https://github.com/AirdropFamilyIDN-V2-0/Vertus/assets/169606426/3e6dee72-0972-4aae-9a97-4d023e2d640e)
